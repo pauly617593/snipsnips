@@ -54,7 +54,7 @@
 			remove: function(i){
 				this.splice(i,1);
 			},
-			replace: function(new_array){
+			replace: function(new_array){}
 				if (!new_array)
 					return;
 				if (!$.isArray(new_array))

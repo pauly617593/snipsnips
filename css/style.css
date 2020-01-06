@@ -8399,7 +8399,10 @@ h1, h2, h3, h4, h5,
     text-transform: uppercase;
     line-height: 1;
     font-weight: 700;
-    color: #fff; }
+    color: #fff; 
+    opacity: .4;
+    text-shadow: 2px 2px;
+  }
   .slider-text .breadcrumbs {
     font-size: 16px;
     margin-bottom: 20px;
@@ -9834,6 +9837,8 @@ textarea.form-control {
   -webkit-animation: loader-dash 1.5s ease-in-out infinite;
   animation: loader-dash 1.5s ease-in-out infinite;
   stroke-linecap: round; }
+
+
 
 @-webkit-keyframes loader-rotate {
   100% {

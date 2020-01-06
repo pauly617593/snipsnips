@@ -347,3 +347,18 @@
 
 })(jQuery);
 
+
+function valid_submit() {
+	$(document).ready(function () {
+		$('.submit').click(function (event) {
+			event.preventDefault();
+			console.log('Click');
+		});
+	});
+	var name = $('.name').val();
+	var email = $('.email').val();
+	var date = $('.date').val();
+	var time = $('.time').val();
+	var phone = $('.phone').val();
+	var message = $('.message').val();
+}
