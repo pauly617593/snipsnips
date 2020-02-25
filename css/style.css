@@ -8699,8 +8699,7 @@ h3.vr {
       .project .icon {
         opacity: 1;
         top: 50px; } }
-  .project:hover:after, .project:focus:after {
-    opacity: .8; }
+ 
   .project:hover .text, .project:focus .text {
     opacity: 1;
     bottom: 0; }
