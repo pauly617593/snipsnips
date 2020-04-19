@@ -349,6 +349,8 @@
 
 
 function valid_submit() {
+
+	
 	$(document).ready(function () {
 		$('.submit').click(function (event) {
 			event.preventDefault();
@@ -361,4 +363,5 @@ function valid_submit() {
 	var time = $('.time').val();
 	var phone = $('.phone').val();
 	var message = $('.message').val();
+
 }
